@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\device">
+      <UniqueIdentifier>{2ce85048-f369-41f2-b007-57695d244125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\device">
+      <UniqueIdentifier>{767bf4e2-f5aa-4397-bf7c-b556df6ea244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\device\aardvark">
+      <UniqueIdentifier>{2c217f6f-247b-4931-9c47-026e1fd9ab3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\device\aardvark">
+      <UniqueIdentifier>{00e24251-f9dc-4962-8838-3b0d3844e0a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\device\ft4222">
+      <UniqueIdentifier>{7cf94529-62c0-4aa3-8d90-41eb83e6432f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\device\ft4222">
+      <UniqueIdentifier>{1a729077-45ec-467a-a6f0-7a7541d58275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\device\ginkgo">
+      <UniqueIdentifier>{f5847957-28cb-4407-bea5-0cecb0f6e74f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\device\ginkgo">
+      <UniqueIdentifier>{7eb52664-f80a-4739-bc2f-c67261f33ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\device\none">
+      <UniqueIdentifier>{f8614b1d-1981-48c5-b0cf-42112342acc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\misc">
+      <UniqueIdentifier>{6d5073b5-3447-458a-9920-91b2baee36fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\misc">
+      <UniqueIdentifier>{b4cfcb8b-8cc7-4824-8659-df5aef3f50c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\device\none">
+      <UniqueIdentifier>{142b7fbd-0795-430b-826c-3f1ffde8f224}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="device\aardvark\aardvark.h">
+      <Filter>头文件\device\aardvark</Filter>
+    </ClInclude>
+    <ClInclude Include="device\aardvark\aardvark-core.h">
+      <Filter>头文件\device\aardvark</Filter>
+    </ClInclude>
+    <ClInclude Include="device\ft4222\ft4222.h">
+      <Filter>头文件\device\ft4222</Filter>
+    </ClInclude>
+    <ClInclude Include="device\ginkgo\ginkgo.h">
+      <Filter>头文件\device\ginkgo</Filter>
+    </ClInclude>
+    <ClInclude Include="device\none\none.h">
+      <Filter>头文件\device\none</Filter>
+    </ClInclude>
+    <ClInclude Include="device\base.h">
+      <Filter>头文件\device</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\exports.h">
+      <Filter>头文件\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\timer.h">
+      <Filter>头文件\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="libfbd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="device\aardvark\aardvark.cpp">
+      <Filter>源文件\device\aardvark</Filter>
+    </ClCompile>
+    <ClCompile Include="device\aardvark\aardvark-core.c">
+      <Filter>源文件\device\aardvark</Filter>
+    </ClCompile>
+    <ClCompile Include="device\ft4222\ft4222.cpp">
+      <Filter>源文件\device\ft4222</Filter>
+    </ClCompile>
+    <ClCompile Include="device\ginkgo\ginkgo.cpp">
+      <Filter>源文件\device\ginkgo</Filter>
+    </ClCompile>
+    <ClCompile Include="device\none\none.cpp">
+      <Filter>源文件\device\none</Filter>
+    </ClCompile>
+    <ClCompile Include="device\base.cpp">
+      <Filter>源文件\device</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\timer.cpp">
+      <Filter>源文件\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="libfbd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
